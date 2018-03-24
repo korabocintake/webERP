@@ -1,22 +1,21 @@
-# webERP - Japanese Translation File.
-# Copyright (C) 2004 weberp.org
-# This file is distributed under the same license as the webERP package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: webERP 4.13\n"
+"Project-Id-Version: weberp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-22 18:59+1300\n"
-"PO-Revision-Date: 2013-06-01 12:04-0600\n"
-"Last-Translator: Rafael Chacon <rafael.emilio.chacon@gmail.com>\n"
-"Language-Team: Japanese <weberp@okid.sakura.ne.jp>\n"
+"PO-Revision-Date: 2018-03-24 00:33-0400\n"
+"Last-Translator: korabocintake <takeuchi@korabo.jp>\n"
+"Language-Team: Japanese\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: crowdin.com\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: weberp\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /master/locale/en_US.utf8/LC_MESSAGES/messages.po\n"
 
 #: AccountGroups.php:6 includes/MainMenuLinksArray.php:405
 msgid "Account Groups"
@@ -344,7 +343,7 @@ msgstr "損益計算"
 #: WWW_Users.php:737 WWW_Users.php:749 WWW_Users.php:752 WWW_Users.php:764
 #: WWW_Users.php:767
 msgid "Yes"
-msgstr "Yes"
+msgstr ""
 
 #: AccountGroups.php:312 AccountGroups.php:472 AccountGroups.php:475
 #: AddCustomerContacts.php:165 AddCustomerContacts.php:274
@@ -416,7 +415,7 @@ msgstr "Yes"
 #: WWW_Users.php:736 WWW_Users.php:748 WWW_Users.php:751 WWW_Users.php:763
 #: WWW_Users.php:766 includes/PDFLowGPPageHeader.inc:44
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #: AccountGroups.php:321 AccountSections.php:196 AddCustomerContacts.php:158
 #: AddCustomerNotes.php:137 AddCustomerTypeNotes.php:131 Areas.php:164
@@ -770,7 +769,7 @@ msgstr "電話番号"
 #: includes/PO_PDFOrderPageHeader.inc:29 ../webSHOP/Checkout.php:443
 #: ../webSHOP/Register.php:607
 msgid "Email"
-msgstr "Email"
+msgstr ""
 
 #: AddCustomerContacts.php:137 SelectCustomer.php:731
 #: includes/PDFStatementPageHeader.inc:23
@@ -4192,7 +4191,7 @@ msgstr "ＦＡＸ番号"
 #: Suppliers.php:981 SupplierTenderCreate.php:415 SuppLoginSetup.php:145
 #: WWW_Users.php:523 ../webSHOP/Checkout.php:578
 msgid "Email Address"
-msgstr "Email Address"
+msgstr ""
 
 #: CompanyPreferences.php:227
 msgid "Enter the main company email address. This will appear on invoices and statements."
@@ -5405,13 +5404,13 @@ msgstr "請求書印刷"
 #: SelectSalesOrder.php:980 SystemParameters.php:577
 #, php-format
 msgid "Landscape"
-msgstr "Landscape"
+msgstr ""
 
 #: ConfirmDispatch_Invoice.php:1657 CounterReturns.php:1605
 #: SelectSalesOrder.php:980 SystemParameters.php:578
 #, php-format
 msgid "Portrait"
-msgstr "Portrait"
+msgstr ""
 
 #: ConfirmDispatch_Invoice.php:1659
 msgid "Select another order for invoicing"
@@ -8122,7 +8121,7 @@ msgstr "レポート頁サイズ"
 #: SuppLoginSetup.php:207 SuppLoginSetup.php:209 WWW_Users.php:625
 #: WWW_Users.php:627
 msgid "A4"
-msgstr "A4"
+msgstr ""
 
 #: CustLoginSetup.php:197 CustLoginSetup.php:199 CustLoginSetup.php:203
 #: CustLoginSetup.php:205 SuppLoginSetup.php:213 SuppLoginSetup.php:215
@@ -10333,7 +10332,7 @@ msgstr "注文合計"
 #: SupplierInvoice.php:847 Z_CurrencyDebtorsBalances.php:38
 #: Z_CurrencySuppliersBalances.php:36
 msgid "in"
-msgstr "in"
+msgstr ""
 
 #: Dashboard.php:651 SelectSalesOrder.php:832
 msgid "No orders or quotations were returned by the SQL because"
@@ -11651,7 +11650,7 @@ msgstr ""
 
 #: EmailCustTrans.php:70 PO_PDFPurchOrder.php:450
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: ExchangeRateTrend.php:6 ExchangeRateTrend.php:28 ExchangeRateTrend.php:29
 msgid "View Currency Trend"
@@ -13374,7 +13373,7 @@ msgstr ""
 
 #: GLAccounts.php:304
 msgid "P/L or B/S"
-msgstr "P/L or B/S"
+msgstr ""
 
 #: GLAccounts.php:313 GLBalanceSheet.php:9 GLBalanceSheet.php:23
 #: GLBalanceSheet.php:88 GLBalanceSheet.php:89 GLBalanceSheet.php:112
@@ -13382,11 +13381,11 @@ msgstr "P/L or B/S"
 #: SelectGLAccount.php:42 SelectGLAccount.php:63
 #: includes/MainMenuLinksArray.php:379
 msgid "Balance Sheet"
-msgstr "Balance Sheet"
+msgstr ""
 
 #: GLAccounts.php:313
 msgid "Profit/Loss"
-msgstr "Profit/Loss"
+msgstr ""
 
 #: GLAccounts.php:318
 msgid "The chart accounts could not be retrieved because"
@@ -14519,7 +14518,7 @@ msgstr "購買発注詳細を更新する以下のSQLが使われました"
 #: GoodsReceived.php:740 GoodsReceived.php:762 SelectSalesOrder.php:1011
 #: SupplierInvoice.php:418
 msgid "PO"
-msgstr "PO"
+msgstr ""
 
 #: GoodsReceived.php:743 SupplierInvoice.php:399
 msgid "The purchase GL posting could not be inserted because"
@@ -17248,7 +17247,7 @@ msgstr "印刷"
 
 #: MRPReport.php:180 SelectProduct.php:165
 msgid "EOQ"
-msgstr "EOQ"
+msgstr ""
 
 #: MRPReport.php:182
 msgid "On Hand:"
@@ -23699,8 +23698,7 @@ msgid "Group By"
 msgstr ""
 
 #: QATests.php:249
-msgid ""
-"Can be used to group certain Tests on the Product Specification or Certificate of\n"
+msgid "Can be used to group certain Tests on the Product Specification or Certificate of\n"
 "Analysis or left blank"
 msgstr ""
 
@@ -24320,7 +24318,7 @@ msgstr ""
 #: SupplierInvoice.php:1312 SupplierInvoice.php:1360 SupplierInvoice.php:1397
 #: SupplierInvoice.php:1422 includes/PDFOstdgGRNsPageHeader.inc:36
 msgid "GRN"
-msgstr "GRN"
+msgstr ""
 
 #: ReverseGRN.php:401 SupplierInvoice.php:672
 msgid "GRN Batch"
@@ -24443,7 +24441,7 @@ msgstr ""
 #: SalesAnalReptCols.php:254 SalesAnalReptCols.php:261
 #: SalesAnalReptCols.php:262
 msgid "Col"
-msgstr "Col"
+msgstr ""
 
 #: SalesAnalReptCols.php:255
 msgid "Heading 1"
@@ -31826,8 +31824,7 @@ msgid "The following SQL to update the GRN quantity invoiced was used"
 msgstr "請求済みGRN数量を更新する以下のSQLが使われました"
 
 #: SupplierInvoice.php:1568
-msgid ""
-"The invoice could not be mapped to the\n"
+msgid "The invoice could not be mapped to the\n"
 "\t\t\t\t\tgoods received record because"
 msgstr ""
 
@@ -33581,11 +33578,11 @@ msgstr "ConnectDB_XXXX.incで定めた機能DB_Maintenanceを使用してデー�
 
 #: SystemParameters.php:985 includes/MiscFunctions.php:249
 msgid "WackoWiki"
-msgstr "WackoWiki"
+msgstr ""
 
 #: SystemParameters.php:986 includes/MiscFunctions.php:251
 msgid "MediaWiki"
-msgstr "MediaWiki"
+msgstr ""
 
 #: SystemParameters.php:987 includes/MiscFunctions.php:253
 msgid "DokuWiki"
@@ -33601,7 +33598,7 @@ msgstr "この特徴は、wikiを使ってwebERPが自由形式の会社知識�
 
 #: SystemParameters.php:997
 msgid "Wiki Path"
-msgstr "Wiki Path"
+msgstr ""
 
 #: SystemParameters.php:999
 msgid "The path to the wiki installation to form the basis of wiki URLs - or the full URL of the wiki."
@@ -42996,7 +42993,7 @@ msgstr "数"
 
 #: includes/PDFInventoryPlanPageHeader.inc:56
 msgid "MTD"
-msgstr "MTD"
+msgstr ""
 
 #: includes/PDFInventoryPlanPageHeader.inc:66
 msgid "ms stk"
@@ -47013,473 +47010,12 @@ msgstr ""
 msgid "Bank Transfer"
 msgstr ""
 
-#~ msgid "Select Period From:"
-#~ msgstr "開始期間選択:"
-
-#~ msgid "Select Period To:"
-#~ msgstr "終了期間選択:"
-
-#~ msgid "Date Paid"
-#~ msgstr "支払日"
-
-#~ msgid "Currency of Payment"
-#~ msgstr "通貨名"
-
-#~ msgid "Are you sure you wish to delete this code and the expense it may have set up?"
-#~ msgstr "この仕入先価格を削除してもよろしいですか？"
-
-#~ msgid "Are you sure you wish to delete this code and the expenses it may have set up?"
-#~ msgstr "この仕入先価格を削除してもよろしいですか？"
-
-#~ msgid "The Expense code must be twenty characters or less long"
-#~ msgstr "地域コードは3文字以下でなければなりません"
-
-#~ msgid "The Expense code cannot contain any of the following characters \" ' - &amp;"
-#~ msgstr "地域税名は文字列を含むことができません"
-
-#~ msgid "The Expense description cannot contain any of the following characters \" ' - &amp;"
-#~ msgstr "勘定セクション名は文字列を含むことができません"
-
-#~ msgid "Inventory Planning for Categories Between"
-#~ msgstr "在庫計画　　カテゴリ範囲"
-
-#~ msgid "Inventory Planning for Products Category"
-#~ msgstr "在庫計画　　カテゴリ範囲"
-
-#~ msgid "Date Of Expense"
-#~ msgstr "最終日"
-
-#~ msgid "Expense Description"
-#~ msgstr "条件内容"
-
-#~ msgid "A general ledger code must be selected for this expense"
-#~ msgstr "期間または期間範囲をリストボックスから選ばなければなりません"
-
 #~ msgid "Authoriser "
-#~ msgstr "税務当局"
+#~ msgstr "Authorizer"
 
-#~ msgid "Balance At"
-#~ msgstr "残高時期"
+#~ msgid "GL Accounts Authorised Users Maintenance"
+#~ msgstr "GL Accounts Authorized Users Maintenance"
 
-#~ msgid "Assigner"
-#~ msgstr "設定済み税金"
+#~ msgid "User Authorised GL Accounts Maintenance"
+#~ msgstr "User Authorized GL Accounts Maintenance"
 
-#~ msgid "has been selected"
-#~ msgstr "が選択された"
-
-#~ msgid "Tax On Sales"
-#~ msgstr "販売課税"
-
-#~ msgid "Tax On Purchases"
-#~ msgstr "購買課税"
-
-#~ msgid "Assembly:"
-#~ msgstr "組立"
-
-#~ msgid "Act Transfer From "
-#~ msgstr "移動元"
-
-#~ msgid "Phone no"
-#~ msgstr "電話番号"
-
-#~ msgid "User code"
-#~ msgstr "ユーザーコード"
-
-#~ msgid "All Sales people"
-#~ msgstr "全営業担当"
-
-#~ msgid "Contract Reference:"
-#~ msgstr "得意先参照"
-
-#~ msgid "View Currency Trends"
-#~ msgstr "自国通貨"
-
-#~ msgid "Consolidation:"
-#~ msgstr "役職"
-
-#~ msgid "EOQ:"
-#~ msgstr "EOQ"
-
-#~ msgid "For Sales folk"
-#~ msgstr "営業担当"
-
-#~ msgid "All sales folk"
-#~ msgstr "全営業担当"
-
-#~ msgid "Expense code:"
-#~ msgstr "ユーザーコード"
-
-#~ msgid "For Stock Category:"
-#~ msgstr "在庫カテゴリ:"
-
-#~ msgid "For Sales Person:"
-#~ msgstr "営業担当:"
-
-#~ msgid "All Salesmen"
-#~ msgstr "全営業担当"
-
-#~ msgid "module"
-#~ msgstr "ロール"
-
-#~ msgid "Chart of Accounts Maintenance"
-#~ msgstr "勘定表メンテナンス"
-
-#~ msgid "Supplier purchasing data for"
-#~ msgstr "仕入先購買データ"
-
-#~ msgid "Print All Statements in the Range Selected"
-#~ msgstr "選択範囲の全明細印刷"
-
-#~ msgid "Last Paid Date:"
-#~ msgstr "最終納品"
-
-#~ msgid "Customer Type:"
-#~ msgstr "得意先参照"
-
-#~ msgid "Allocations made against invoice number"
-#~ msgstr "割当が作られた請求書番号"
-
-#~ msgid "From Inventory Category Code"
-#~ msgstr "開始在庫カテゴリコード"
-
-#~ msgid "To Inventory Category Code"
-#~ msgstr "終了在庫カテゴリコード"
-
-#~ msgid "Eff Date"
-#~ msgstr "終了日"
-
-#~ msgid "Email "
-#~ msgstr "Email"
-
-#~ msgid "Credit "
-#~ msgstr "貸方"
-
-#~ msgid "View GL Entries"
-#~ msgstr "入力済数量表示"
-
-#~ msgid "The predefined batch/lot/bundle record could not be deleted because"
-#~ msgstr "定義済みの税務当局は取り戻しできませんでした、理由は"
-
-#~ msgid "The following SQL to delete the predefined work order batch/bundle/lot record was used"
-#~ msgstr "購買発注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "HTML View"
-#~ msgstr "伝票"
-
-#~ msgid "General Ledger Profit Loss Inquiry"
-#~ msgstr "総勘定元帳勘定問合せ"
-
-#~ msgid "Statement of Profit and Loss for the"
-#~ msgstr "損益計算"
-
-#~ msgid "Trial Balance Report"
-#~ msgstr "試算表"
-
-#~ msgid "Account:"
-#~ msgstr "勘定"
-
-#~ msgid "Bank Account Matching"
-#~ msgstr "銀行口座の入金照合"
-
-#~ msgid "Remmitance Advice"
-#~ msgstr "御請求書"
-
-#~ msgid "All branches"
-#~ msgstr "全支店"
-
-#~ msgid "Access Permission Maintenance"
-#~ msgstr "アクセス権メンテナンス"
-
-#~ msgid "View the GL Entries"
-#~ msgstr "入力済数量表示"
-
-#~ msgid "Prices for Categories"
-#~ msgstr "税カテゴリ確認"
-
-#~ msgid "Prices For Categories"
-#~ msgstr "税カテゴリ確認"
-
-#~ msgid "Taxation Report"
-#~ msgstr "課税レポート"
-
-#~ msgid "Tax Report for"
-#~ msgstr "期間　税レポート"
-
-#~ msgid "Return Suggested Entries"
-#~ msgstr "提案済みエントリ戻し"
-
-#~ msgid "Total Sales and Income (incl Tax)"
-#~ msgstr "総売上高と収入（税込）"
-
-#~ msgid "Tax On Liable Sales"
-#~ msgstr "課税対象売上"
-
-#~ msgid "This information excludes Tax on journal entries/payments/receipts all Tax should be entered through AR/AP"
-#~ msgstr "この情報は仕訳入力/支払/入金の税を除いて、AR/APを通してすべての税が入力しなければならない"
-
-#~ msgid "Tax Provinces"
-#~ msgstr "地方税"
-
-#~ msgid "Edit/Review Tax Authorities"
-#~ msgstr "税務当局編集/確認"
-
-#~ msgid "Edit/Review Tax Groupings"
-#~ msgstr "税グループ編集/確認"
-
-#~ msgid "Edit/Review Tax Categories"
-#~ msgstr "税カテゴリ編集/確認"
-
-#~ msgid "Notes:"
-#~ msgstr "注釈"
-
-#~ msgid "The customer type "
-#~ msgstr "終了得意先コード"
-
-#~ msgid "Price Listing Report"
-#~ msgstr "価格表レポート"
-
-#~ msgid "Prices"
-#~ msgstr "価格"
-
-#~ msgid "Print a price list"
-#~ msgstr "価格表印刷"
-
-#~ msgid "Product Image / Description"
-#~ msgstr "品目内容"
-
-#~ msgid "Enter Supplier Invoice:"
-#~ msgstr "仕入先の請求書入力"
-
-#~ msgid "The supplier type "
-#~ msgstr "仕入先コード"
-
-#~ msgid "New Users Default Theme"
-#~ msgstr "新ユーザーのデフォルトテーマ"
-
-#~ msgid "The default theme is used for new users who have not yet defined the display colour scheme theme of their choice"
-#~ msgstr "選択の表示色彩設計テーマを未定義の新しいユーザーのためにデフォルトテーマが使われます"
-
-#~ msgid "Asset Categories Maintenance"
-#~ msgstr "値引きカテゴリメンテナンス"
-
-#~ msgid "Customer Branch Code:"
-#~ msgstr "得意先支店"
-
-#~ msgid "Geocoded Customer Branches Report"
-#~ msgstr "経年得意先残高/期限切れレポート"
-
-#~ msgid "Top Sales Items Report"
-#~ msgstr "販売分析レポート"
-
-#~ msgid "Customers Currency"
-#~ msgstr "得意先通貨"
-
-#~ msgid "Category:"
-#~ msgstr "カテゴリ"
-
-#~ msgid "Stock Category Maintenance"
-#~ msgstr "在庫カテゴリメンテナンス"
-
-#~ msgid "this line was for the part code"
-#~ msgstr "この行は品目コード用でした"
-
-#~ msgid "Form Design"
-#~ msgstr "帳票設計"
-
-#~ msgid "Price Charge in"
-#~ msgstr "請求価格 in"
-
-#~ msgid "Qty Outstanding"
-#~ msgstr "未処理数量"
-
-#~ msgid "Actual Price in"
-#~ msgstr "実績価格 in"
-
-#~ msgid "Modify Line"
-#~ msgstr "行修正"
-
-#~ msgid "Currency Maintenance"
-#~ msgstr "通貨メンテナンス"
-
-#~ msgid "For Payments"
-#~ msgstr "支払用"
-
-#~ msgid "For Receipts"
-#~ msgstr "入金用"
-
-#~ msgid "Use Pre-printed"
-#~ msgstr "LBP印刷"
-
-#~ msgid "Stationery"
-#~ msgstr "印刷伝票"
-
-#~ msgid "Reference / Narrative"
-#~ msgstr "GL摘要"
-
-#~ msgid "(Max. length 80 characters)"
-#~ msgstr "または文字列"
-
-#~ msgid "Add Inventory Items"
-#~ msgstr "在庫品目追加"
-
-#~ msgid "Czech"
-#~ msgstr "単位数"
-
-#~ msgid "German"
-#~ msgstr "必要数量"
-
-#~ msgid "Greek"
-#~ msgstr "限界点"
-
-#~ msgid "Persian"
-#~ msgstr "印刷"
-
-#~ msgid "French-Quebec"
-#~ msgstr "支店"
-
-#~ msgid "French"
-#~ msgstr "支店"
-
-#~ msgid "Indonesian"
-#~ msgstr "得意先　　担当場所"
-
-#~ msgid "Japanese"
-#~ msgstr "ページ"
-
-#~ msgid "Latvian"
-#~ msgstr "場所"
-
-#~ msgid "Dutch"
-#~ msgstr "発送"
-
-#~ msgid "Vietnamese"
-#~ msgstr "フルネーム"
-
-#~ msgid "Configuration Settings"
-#~ msgstr "構成設定"
-
-#~ msgid "The Line 4 of the address must be forty characters or less long"
-#~ msgstr "住所の第4行は40文字以下でなければなりません"
-
-#~ msgid "The Line 6 of the address must be fifteen characters or less long"
-#~ msgstr "住所の第6行は15文字以下でなければなりません"
-
-#~ msgid "Address Line 2 (Suburb/City)"
-#~ msgstr "住所行２"
-
-#~ msgid "Address Line 3 (State/Province)"
-#~ msgstr "住所行３"
-
-#~ msgid "Address Line 4 (Postal Code)"
-#~ msgstr "住所行４"
-
-#~ msgid "Freight Costs Set Up"
-#~ msgstr "運賃設定"
-
-#~ msgid "Enter Account No. to search from"
-#~ msgstr "検索開始勘定コードを入力"
-
-#~ msgid "Change Tax Calculation Method"
-#~ msgstr "税額計算方法変更"
-
-#~ msgid "Starting Reference no (eg chq no)"
-#~ msgstr "開始参照番号（例えば小切手番号）"
-
-#~ msgid "Enter An Order or Quotation"
-#~ msgstr "注文とか見積り入力"
-
-#~ msgid "Order Inquiry"
-#~ msgstr "注文問合せ"
-
-#~ msgid "   "
-#~ msgstr "   "
-
-#~ msgid "Select one of the links below to operate using this Account"
-#~ msgstr "この勘定を使用して操作する以下のリンクの一つを選択"
-
-#~ msgid "New Search"
-#~ msgstr "新しい検索"
-
-#~ msgid "Select Inv. Item"
-#~ msgstr "在庫品目選択"
-
-#~ msgid "Add Inventory Item"
-#~ msgstr "在庫品目追加"
-
-#~ msgid "Inventory items in this category."
-#~ msgstr "このカテゴリの在庫品目"
-
-#~ msgid "Could not load the countries from the currency table"
-#~ msgstr "勘定が更新できなかった理由は"
-
-#~ msgid "The SQL to update the mrpdemands records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "Changing MRP planned orders information"
-#~ msgstr "販売受注レコード変更"
-
-#~ msgid "The SQL to update the mrpplannedorders records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the mrprequirements records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the mrpsupplies records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "Changing sales orders detail records"
-#~ msgstr "販売受注詳細レコード変更"
-
-#~ msgid "Changing purchase order details records"
-#~ msgstr "購買発注詳細レコード変更"
-
-#~ msgid "The SQL to update the contract BOM records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "Changing the item properties table records"
-#~ msgstr "販売受注詳細レコード変更"
-
-#~ msgid "The SQL to update the item properties records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the stockid worequirements records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the parent stockid worequirements records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the woitem records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The SQL to update the sales category records failed"
-#~ msgstr "販売受注詳細レコードを更新する以下のSQLが使われました"
-
-#~ msgid "The currency name must be 20 characters or less long"
-#~ msgstr "通貨名称は20文字以下でなければなりません"
-
-#~ msgid "Currency Abbreviation"
-#~ msgstr "通貨省略形"
-
-#~ msgid "Guiana, French"
-#~ msgstr "支店"
-
-#~ msgid "Reunion"
-#~ msgstr "請求書"
-
-#~ msgid "Log Off"
-#~ msgstr "ログオフ"
-
-#~ msgid "Date Updated"
-#~ msgstr "価格更新"
-
-#~ msgid "File has type "
-#~ msgstr "販売タイプ"
-
-#~ msgid "note"
-#~ msgstr "注意"
-
-#~ msgid "The SQL to to create temporary item quantity table failed with the message"
-#~ msgstr "在庫移動レコードを追加する以下のSQLが使われました"
-
-#~ msgid "Stock Conversion Utility"
-#~ msgstr "変換率（当社単位へ）"

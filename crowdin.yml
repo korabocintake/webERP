@@ -1,3 +1,5 @@
 files:
   - source: /locale/en_US.utf8/LC_MESSAGES/messages.*
     translation: /locale/%locale_with_underscore%.utf8/LC_MESSAGES/%original_file_name%
+  - source: /doc/Manual/*
+    translation: /locale/%locale_with_underscore%.utf8/Manual/%original_file_name%

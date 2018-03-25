@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: weberp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-22 18:59+1300\n"
-"PO-Revision-Date: 2018-03-25 14:01-0400\n"
+"PO-Revision-Date: 2018-03-25 14:12-0400\n"
 "Last-Translator: korabocintake <takeuchi@korabo.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -975,7 +975,7 @@ msgstr "優先"
 
 #: AddCustomerTypeNotes.php:150
 msgid "Review all notes for this Customer Type"
-msgstr ""
+msgstr "この顧客種別に対するメモを確認"
 
 #: AddCustomerTypeNotes.php:203
 msgid "Contact Group Note"
@@ -987,11 +987,11 @@ msgstr "品目"
 
 #: AgedControlledInventory.php:8
 msgid "Aged Controlled Inventory"
-msgstr ""
+msgstr "鮮度別管理在庫"
 
 #: AgedControlledInventory.php:8
 msgid "as-of"
-msgstr ""
+msgstr "締日?"
 
 #: AgedControlledInventory.php:12 GLCashFlowsSetup.php:109
 #: InventoryQuantities.php:155 InventoryValuation.php:217 Locations.php:12
@@ -1009,7 +1009,7 @@ msgstr "在庫"
 
 #: AgedControlledInventory.php:32
 msgid "The stock held could not be retrieved because"
-msgstr ""
+msgstr "保管在庫を取得できませんでした。というのは、"
 
 #: AgedControlledInventory.php:42 MRPReschedules.php:124 MRPShortages.php:260
 #: StockClone.php:53 Stocks.php:63

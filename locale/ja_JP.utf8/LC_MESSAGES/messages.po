@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: weberp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-22 18:59+1300\n"
-"PO-Revision-Date: 2018-03-25 13:32-0400\n"
+"PO-Revision-Date: 2018-03-25 13:40-0400\n"
 "Last-Translator: korabocintake <takeuchi@korabo.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -35,7 +35,7 @@ msgstr "GLトランザクションを取得してエラーが発生しました"
 
 #: AccountGroups.php:46
 msgid "The SQL that was used to move the account group was"
-msgstr "アカウント グループの移動に使用された sqlの結果は、"
+msgstr "勘定グループの移動に使用された sqlの結果は、"
 
 #: AccountGroups.php:48 AccountGroups.php:330
 msgid "Review Account Groups"
@@ -84,7 +84,7 @@ msgstr "勘定グループセクションを得ることができなかった"
 
 #: AccountGroups.php:114
 msgid "Since this account group is a child group, the sequence in the trial balance, the section in the accounts and whether or not the account group appears in the balance sheet or profit and loss account are all properties inherited from the parent account group. Any changes made to these fields will have no effect."
-msgstr ""
+msgstr "この勘定グループは子グループなので、残高試算表のシーケンス、勘定の区分(セクション)、勘定グループが貸借対照表または損益計算書に表示されるかどうかは、すべて親勘定 グループから継承されプロパティとなっている。これらのフィールドに加えられた変更には、効果がありません。"
 
 #: AccountGroups.php:119
 msgid "The section in accounts must be an integer"
@@ -100,11 +100,11 @@ msgstr "試算表のシーケンスは未満でなければなりません"
 
 #: AccountGroups.php:147
 msgid "An error occurred in renaming the account group"
-msgstr ""
+msgstr "勘定グループの名前の変更でエラーが発生"
 
 #: AccountGroups.php:148
 msgid "The SQL that was used to rename the account group was"
-msgstr ""
+msgstr "勘定グループの名前を変更するために使用された sqlの結果は、"
 
 #: AccountGroups.php:167
 msgid "An error occurred in updating the account group"
@@ -343,7 +343,7 @@ msgstr "損益計算"
 #: WWW_Users.php:737 WWW_Users.php:749 WWW_Users.php:752 WWW_Users.php:764
 #: WWW_Users.php:767
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: AccountGroups.php:312 AccountGroups.php:472 AccountGroups.php:475
 #: AddCustomerContacts.php:165 AddCustomerContacts.php:274
@@ -415,7 +415,7 @@ msgstr ""
 #: WWW_Users.php:736 WWW_Users.php:748 WWW_Users.php:751 WWW_Users.php:763
 #: WWW_Users.php:766 includes/PDFLowGPPageHeader.inc:44
 msgid "No"
-msgstr ""
+msgstr "いいえ"
 
 #: AccountGroups.php:321 AccountSections.php:196 AddCustomerContacts.php:158
 #: AddCustomerNotes.php:137 AddCustomerTypeNotes.php:131 Areas.php:164
@@ -545,7 +545,7 @@ msgstr "更新"
 #: UserGLAccounts.php:259 Z_GLAccountUsersCopyAuthority.php:96
 #: includes/Login.php:8
 msgid "Return"
-msgstr ""
+msgstr "戻り値"
 
 #: AccountGroups.php:409
 msgid "New Account Group Details"
@@ -555,7 +555,7 @@ msgstr "勘定グループ確認"
 #: Z_ImportDebtors.php:626 Z_ImportDebtors.php:628 Z_ImportSuppliers.php:336
 #: Z_ImportSuppliers.php:338
 msgid "Insert"
-msgstr ""
+msgstr "挿入"
 
 #: AccountGroups.php:428
 msgid "Account Group Name"
@@ -563,11 +563,11 @@ msgstr "勘定グループ名"
 
 #: AccountGroups.php:429
 msgid "Enter the account group name"
-msgstr ""
+msgstr "勘定グループ名を入力"
 
 #: AccountGroups.php:429
 msgid "A unique name for the account group must be entered - at least 3 characters long and less than 30 characters long. Only alpha numeric characters can be used."
-msgstr ""
+msgstr "勘定グループの一意の名前を入力する必要があります - 少なくとも 3 文字、30文字 未満です。英数字のみが使用できます。"
 
 #: AccountGroups.php:438
 msgid "Top Level Group"

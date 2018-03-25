@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: weberp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-22 18:59+1300\n"
-"PO-Revision-Date: 2018-03-25 13:50-0400\n"
+"PO-Revision-Date: 2018-03-25 14:01-0400\n"
 "Last-Translator: korabocintake <takeuchi@korabo.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -583,7 +583,7 @@ msgstr "[はい] この勘定グループが損益計算書の勘定のみで構
 
 #: AccountGroups.php:482
 msgid "Enter the sequence number that this account group and its child general ledger accounts should display in the trial balance"
-msgstr ""
+msgstr "この勘定グループとそれに付随する勘定科目を残高試算表で表示する場合はシーケンス番号を入力してください。"
 
 #: AccountSections.php:6 AccountSections.php:172 AccountSections.php:173
 #: includes/MainMenuLinksArray.php:404
@@ -644,7 +644,7 @@ msgstr "要求セクションを取り出すことができませんでした、
 
 #: AccountSections.php:243
 msgid "Edit Account Section Details"
-msgstr ""
+msgstr "勘定区分(セクション)の詳細を編集"
 
 #: AccountSections.php:267
 msgid "New Account Section Details"
@@ -769,7 +769,7 @@ msgstr "電話番号"
 #: includes/PO_PDFOrderPageHeader.inc:29 ../webSHOP/Checkout.php:443
 #: ../webSHOP/Register.php:607
 msgid "Email"
-msgstr ""
+msgstr "電子メール"
 
 #: AddCustomerContacts.php:137 SelectCustomer.php:731
 #: includes/PDFStatementPageHeader.inc:23
@@ -793,15 +793,15 @@ msgstr "注釈"
 #: AddCustomerContacts.php:159 SupplierContacts.php:166
 #, php-format
 msgid "Are you sure you wish to delete this contact?"
-msgstr ""
+msgstr "この連絡先を削除していいですか。"
 
 #: AddCustomerContacts.php:179
 msgid "Review all contacts for this Customer"
-msgstr ""
+msgstr "この顧客のすべての連絡先を確認"
 
 #: AddCustomerContacts.php:217
 msgid "Edit Customer Contact Details"
-msgstr ""
+msgstr "顧客の連絡先詳細を編集"
 
 #: AddCustomerContacts.php:222
 msgid "Contact Code"
@@ -809,7 +809,7 @@ msgstr "カテゴリコード"
 
 #: AddCustomerContacts.php:229
 msgid "New Customer Contact Details"
-msgstr ""
+msgstr "新しい顧客連絡先の詳細"
 
 #: AddCustomerContacts.php:236 Factors.php:234 SupplierContacts.php:239
 #: ../webSHOP/Checkout.php:527 ../webSHOP/Register.php:622
@@ -828,11 +828,11 @@ msgstr "電話番号"
 
 #: AddCustomerContacts.php:271
 msgid "Send Statement"
-msgstr ""
+msgstr "ステートメントを送信"
 
 #: AddCustomerContacts.php:272
 msgid "This flag identifies the contact as one who should receive an email cusstomer statement"
-msgstr ""
+msgstr "このフラグで、連絡先が電子メール 顧客ステートメントを受け取るべきかを識別します。"
 
 #: AddCustomerNotes.php:6 AddCustomerNotes.php:51 SelectCustomer.php:807
 #: SelectCustomer.php:840
@@ -912,7 +912,7 @@ msgstr "注意"
 
 #: AddCustomerNotes.php:119 AddCustomerNotes.php:213
 msgid "WWW"
-msgstr ""
+msgstr "WWW"
 
 #: AddCustomerNotes.php:120 AddCustomerNotes.php:231
 #: AddCustomerTypeNotes.php:114 AddCustomerTypeNotes.php:215

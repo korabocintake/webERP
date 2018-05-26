@@ -1,4 +1,5 @@
 <?php
+/* This script allows credits and refunds from the default Counter Sale account for an inventory location. */
 
 include('includes/DefineCartClass.php');
 
@@ -6,10 +7,11 @@ include('includes/DefineCartClass.php');
 config.php is in turn included in session.php $PageSecurity now comes from session.php (and gets read in by GetConfig.php*/
 
 include('includes/session.php');
-
 $Title = _('Counter Returns');
-
+$ViewTopic = 'SalesOrders';
+$BookMark = 'CounterReturns';
 include('includes/header.php');
+
 include('includes/GetPrice.inc');
 include('includes/SQL_CommonFunctions.inc');
 include('includes/GetSalesTransGLCodes.inc');
@@ -1303,7 +1305,7 @@ if (isset($_POST['ProcessReturn']) AND $_POST['ProcessReturn'] != ''){
 												'" . $CreditNoteNo . "',
 												'" . $ReturnDate . "',
 												'" . $PeriodNo . "',
-												'" . GetCOGSGLAccount($Area, $ReturnItemLine->StockID, $_SESSION['Items' . $identifier]->DefaultSalesType, $db) . "',
+												'" . GetCOGSGLAccount($Area, $ReturnItemLine->StockID, $_SESSION['Items' . $identifier]->DefaultSalesType) . "',
 												'" . $_SESSION['Items' . $identifier]->DebtorNo . " - " . $ReturnItemLine->StockID . " x " . -$ReturnItemLine->Quantity . " @ " . $ReturnItemLine->StandardCost . "',
 												'" . $ReturnItemLine->StandardCost * -$ReturnItemLine->Quantity . "')";
 
@@ -1337,7 +1339,7 @@ if (isset($_POST['ProcessReturn']) AND $_POST['ProcessReturn'] != ''){
 			if ($_SESSION['CompanyRecord']['gllink_debtors']==1 AND $ReturnItemLine->Price !=0){
 
 		//Post sales transaction to GL credit sales
-				$SalesGLAccounts = GetSalesGLAccount($Area, $ReturnItemLine->StockID, $_SESSION['Items' . $identifier]->DefaultSalesType, $db);
+				$SalesGLAccounts = GetSalesGLAccount($Area, $ReturnItemLine->StockID, $_SESSION['Items' . $identifier]->DefaultSalesType);
 
 				$SQL = "INSERT INTO gltrans (type,
 											typeno,

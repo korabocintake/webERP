@@ -1,26 +1,25 @@
-# webERP - Japanese Translation File.
-# Copyright (C) 2004 weberp.org
-# This file is distributed under the same license as the webERP package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: webERP 4.13\n"
+"Project-Id-Version: weberp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-05-20 16:34-0400\n"
-"PO-Revision-Date: 2013-06-01 12:04-0600\n"
-"Last-Translator: Rafael Chacon <rafael.emilio.chacon@gmail.com>\n"
-"Language-Team: Japanese <weberp@okid.sakura.ne.jp>\n"
+"PO-Revision-Date: 2018-05-26 13:36+0900\n"
+"Last-Translator: korabocintake <takeuchi@korabo.jp>\n"
+"Language-Team: Japanese\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: weberp\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /master/locale/en_US.utf8/LC_MESSAGES/messages.po\n"
 
 #: AccountGroups.php:5 includes/MainMenuLinksArray.php:99
 msgid "Account Groups"
-msgstr "勘定グループ"
+msgstr "勘定グループを得ることができなかったのは"
 
 #: AccountGroups.php:18
 msgid "An error occurred in retrieving the account groups of the parent account group during the check for recursion"
@@ -36,7 +35,7 @@ msgstr "GLトランザクションを取得してエラーが発生しました"
 
 #: AccountGroups.php:45
 msgid "The SQL that was used to move the account group was"
-msgstr ""
+msgstr "勘定グループの移動に使用された sqlの結果は、"
 
 #: AccountGroups.php:47 AccountGroups.php:325
 msgid "Review Account Groups"
@@ -85,7 +84,7 @@ msgstr "勘定グループセクションを得ることができなかった"
 
 #: AccountGroups.php:113
 msgid "Since this account group is a child group, the sequence in the trial balance, the section in the accounts and whether or not the account group appears in the balance sheet or profit and loss account are all properties inherited from the parent account group. Any changes made to these fields will have no effect."
-msgstr ""
+msgstr "この勘定グループは子グループなので、残高試算表のシーケンス、勘定の区分(セクション)、勘定グループが貸借対照表または損益計算書に表示されるかどうかは、すべて親勘定 グループから継承されプロパティとなっている。これらのフィールドに加えられた変更には、効果がありません。"
 
 #: AccountGroups.php:118
 msgid "The section in accounts must be an integer"
@@ -101,11 +100,11 @@ msgstr "試算表のシーケンスは未満でなければなりません"
 
 #: AccountGroups.php:146
 msgid "An error occurred in renaming the account group"
-msgstr ""
+msgstr "勘定グループの名前の変更でエラーが発生"
 
 #: AccountGroups.php:147
 msgid "The SQL that was used to rename the account group was"
-msgstr ""
+msgstr "勘定グループの名前を変更するために使用された sqlの結果は、"
 
 #: AccountGroups.php:166
 msgid "An error occurred in updating the account group"
@@ -341,7 +340,7 @@ msgstr "損益計算"
 #: WWW_Users.php:716 WWW_Users.php:729 WWW_Users.php:732 WWW_Users.php:744
 #: WWW_Users.php:747 WWW_Users.php:759 WWW_Users.php:762
 msgid "Yes"
-msgstr "Yes"
+msgstr "はい"
 
 #: AccountGroups.php:305 AccountGroups.php:467 AccountGroups.php:470
 #: AddCustomerContacts.php:157 AddCustomerContacts.php:266
@@ -413,7 +412,7 @@ msgstr "Yes"
 #: WWW_Users.php:731 WWW_Users.php:743 WWW_Users.php:746 WWW_Users.php:758
 #: WWW_Users.php:761 includes/PDFLowGPPageHeader.inc:43
 msgid "No"
-msgstr "No"
+msgstr "いいえ"
 
 #: AccountGroups.php:315 AccountSections.php:190 AddCustomerContacts.php:149
 #: AddCustomerNotes.php:128 AddCustomerTypeNotes.php:122 Areas.php:155
@@ -541,7 +540,7 @@ msgstr "更新"
 #: SecurityTokens.php:155 UserGLAccounts.php:251
 #: Z_GLAccountUsersCopyAuthority.php:95 includes/Login.php:7
 msgid "Return"
-msgstr ""
+msgstr "戻り値"
 
 #: AccountGroups.php:404
 msgid "New Account Group Details"
@@ -551,7 +550,7 @@ msgstr "勘定グループ確認"
 #: Z_ImportDebtors.php:625 Z_ImportDebtors.php:627 Z_ImportSuppliers.php:335
 #: Z_ImportSuppliers.php:337
 msgid "Insert"
-msgstr ""
+msgstr "挿入"
 
 #: AccountGroups.php:423
 msgid "Account Group Name"
@@ -559,11 +558,11 @@ msgstr "勘定グループ名"
 
 #: AccountGroups.php:424
 msgid "Enter the account group name"
-msgstr ""
+msgstr "勘定グループ名を入力"
 
 #: AccountGroups.php:424
 msgid "A unique name for the account group must be entered - at least 3 characters long and less than 30 characters long. Only alpha numeric characters can be used."
-msgstr ""
+msgstr "勘定グループの一意の名前を入力する必要があります - 少なくとも 3 文字、30文字 未満です。英数字のみが使用できます。"
 
 #: AccountGroups.php:433
 msgid "Top Level Group"
@@ -575,11 +574,11 @@ msgstr "勘定のセクション"
 
 #: AccountGroups.php:465
 msgid "Select YES if this account group will contain accounts that will consist of only profit and loss accounts or NO if the group will contain balance sheet account"
-msgstr ""
+msgstr "[はい] この勘定グループが損益計算書の勘定のみで構成される場合・「いいえ」グループが貸借対照表勘定の勘定で構成される場合"
 
 #: AccountGroups.php:477
 msgid "Enter the sequence number that this account group and its child general ledger accounts should display in the trial balance"
-msgstr ""
+msgstr "この勘定グループとそれに付随する勘定科目を残高試算表で表示する場合はシーケンス番号を入力してください。"
 
 #: AccountSections.php:5 AccountSections.php:171 AccountSections.php:172
 #: includes/MainMenuLinksArray.php:99
@@ -640,7 +639,7 @@ msgstr "要求セクションを取り出すことができませんでした、
 
 #: AccountSections.php:237
 msgid "Edit Account Section Details"
-msgstr ""
+msgstr "勘定区分(セクション)の詳細を編集"
 
 #: AccountSections.php:261
 msgid "New Account Section Details"
@@ -763,7 +762,7 @@ msgstr "電話番号"
 #: includes/PO_PDFOrderPageHeader.inc:28 ../webSHOP/Checkout.php:443
 #: ../webSHOP/Register.php:607
 msgid "Email"
-msgstr "Email"
+msgstr "電子メール"
 
 #: AddCustomerContacts.php:136 SelectCustomer.php:723
 #: includes/PDFStatementPageHeader.inc:22
@@ -787,15 +786,15 @@ msgstr "注釈"
 #: AddCustomerContacts.php:150 SupplierContacts.php:167
 #, php-format
 msgid "Are you sure you wish to delete this contact?"
-msgstr ""
+msgstr "この連絡先を削除していいですか。"
 
 #: AddCustomerContacts.php:171
 msgid "Review all contacts for this Customer"
-msgstr ""
+msgstr "この顧客のすべての連絡先を確認"
 
 #: AddCustomerContacts.php:209
 msgid "Edit Customer Contact Details"
-msgstr ""
+msgstr "顧客の連絡先詳細を編集"
 
 #: AddCustomerContacts.php:214
 msgid "Contact Code"
@@ -803,7 +802,7 @@ msgstr "カテゴリコード"
 
 #: AddCustomerContacts.php:221
 msgid "New Customer Contact Details"
-msgstr ""
+msgstr "新しい顧客連絡先の詳細"
 
 #: AddCustomerContacts.php:228 Factors.php:233 SupplierContacts.php:240
 #: ../webSHOP/Checkout.php:527 ../webSHOP/Register.php:622
@@ -821,11 +820,11 @@ msgstr "電話番号"
 
 #: AddCustomerContacts.php:263
 msgid "Send Statement"
-msgstr ""
+msgstr "ステートメントを送信"
 
 #: AddCustomerContacts.php:264
 msgid "This flag identifies the contact as one who should receive an email cusstomer statement"
-msgstr ""
+msgstr "このフラグで、連絡先が電子メール 顧客ステートメントを受け取るべきかを識別します。"
 
 #: AddCustomerNotes.php:5 AddCustomerNotes.php:50 SelectCustomer.php:792
 #: SelectCustomer.php:821
@@ -904,7 +903,7 @@ msgstr "注意"
 
 #: AddCustomerNotes.php:118 AddCustomerNotes.php:205
 msgid "WWW"
-msgstr ""
+msgstr "WWW"
 
 #: AddCustomerNotes.php:119 AddCustomerNotes.php:223
 #: AddCustomerTypeNotes.php:113 AddCustomerTypeNotes.php:207
@@ -967,7 +966,7 @@ msgstr "優先"
 
 #: AddCustomerTypeNotes.php:142
 msgid "Review all notes for this Customer Type"
-msgstr ""
+msgstr "この顧客種別に対するメモを確認"
 
 #: AddCustomerTypeNotes.php:195
 msgid "Contact Group Note"
@@ -979,11 +978,11 @@ msgstr "品目"
 
 #: AgedControlledInventory.php:8
 msgid "Aged Controlled Inventory"
-msgstr ""
+msgstr "鮮度別管理在庫"
 
 #: AgedControlledInventory.php:8
 msgid "as-of"
-msgstr ""
+msgstr "締日?"
 
 #: AgedControlledInventory.php:13 GLCashFlowsSetup.php:108
 #: InventoryQuantities.php:154 InventoryValuation.php:216 Locations.php:11
@@ -1001,7 +1000,7 @@ msgstr "在庫"
 
 #: AgedControlledInventory.php:39
 msgid "The stock held could not be retrieved because"
-msgstr ""
+msgstr "保管在庫を取得できませんでした。というのは、"
 
 #: AgedControlledInventory.php:49 MRPReschedules.php:121 MRPShortages.php:255
 #: StockClone.php:52 Stocks.php:83
@@ -4199,7 +4198,7 @@ msgstr "ＦＡＸ番号"
 #: Suppliers.php:980 SupplierTenderCreate.php:414 SuppLoginSetup.php:144
 #: WWW_Users.php:518 ../webSHOP/Checkout.php:578
 msgid "Email Address"
-msgstr "Email Address"
+msgstr ""
 
 #: CompanyPreferences.php:226
 msgid "Enter the main company email address. This will appear on invoices and statements."
@@ -5454,13 +5453,13 @@ msgstr "請求書印刷"
 #: SelectSalesOrder.php:1046 SystemParameters.php:586
 #, php-format
 msgid "Landscape"
-msgstr "Landscape"
+msgstr ""
 
 #: ConfirmDispatch_Invoice.php:1753 CounterReturns.php:1598
 #: SelectSalesOrder.php:1046 SystemParameters.php:587
 #, php-format
 msgid "Portrait"
-msgstr "Portrait"
+msgstr ""
 
 #: ConfirmDispatch_Invoice.php:1755
 msgid "Select another order for invoicing"
@@ -8176,7 +8175,7 @@ msgstr "レポート頁サイズ"
 #: PrintCustOrder_generic.php:122 PrintCustOrder.php:120 SuppLoginSetup.php:206
 #: SuppLoginSetup.php:208 WWW_Users.php:620 WWW_Users.php:622
 msgid "A4"
-msgstr "A4"
+msgstr ""
 
 #: CustLoginSetup.php:196 CustLoginSetup.php:198 CustLoginSetup.php:202
 #: CustLoginSetup.php:204 SuppLoginSetup.php:212 SuppLoginSetup.php:214
@@ -10379,7 +10378,7 @@ msgstr "注文合計"
 #: SupplierInvoice.php:846 Z_CurrencyDebtorsBalances.php:37
 #: Z_CurrencySuppliersBalances.php:35
 msgid "in"
-msgstr "in"
+msgstr ""
 
 #: Dashboard.php:588 SelectSalesOrder.php:876
 msgid "No orders or quotations were returned by the SQL because"
@@ -11693,7 +11692,7 @@ msgstr ""
 
 #: EmailCustTrans.php:69 PO_PDFPurchOrder.php:449
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: ExchangeRateTrend.php:5 ExchangeRateTrend.php:27 ExchangeRateTrend.php:28
 msgid "View Currency Trend"
@@ -13606,7 +13605,7 @@ msgstr ""
 
 #: GLAccounts.php:304
 msgid "P/L or B/S"
-msgstr "P/L or B/S"
+msgstr ""
 
 #: GLAccounts.php:315 GLBalanceSheet.php:8 GLBalanceSheet.php:22
 #: GLBalanceSheet.php:87 GLBalanceSheet.php:88 GLBalanceSheet.php:111
@@ -13614,11 +13613,11 @@ msgstr "P/L or B/S"
 #: SelectGLAccount.php:41 SelectGLAccount.php:62
 #: includes/MainMenuLinksArray.php:95
 msgid "Balance Sheet"
-msgstr "Balance Sheet"
+msgstr ""
 
 #: GLAccounts.php:315
 msgid "Profit/Loss"
-msgstr "Profit/Loss"
+msgstr ""
 
 #: GLAccounts.php:320
 msgid "The chart accounts could not be retrieved because"
@@ -14725,7 +14724,7 @@ msgstr "購買発注詳細を更新する以下のSQLが使われました"
 #: GoodsReceived.php:730 GoodsReceived.php:752 SelectSalesOrder.php:1088
 #: SupplierInvoice.php:417
 msgid "PO"
-msgstr "PO"
+msgstr ""
 
 #: GoodsReceived.php:733 SupplierInvoice.php:398
 msgid "The purchase GL posting could not be inserted because"
@@ -17422,7 +17421,7 @@ msgstr "印刷"
 
 #: MRPReport.php:175 SelectProduct.php:164
 msgid "EOQ"
-msgstr "EOQ"
+msgstr ""
 
 #: MRPReport.php:177
 msgid "On Hand:"
@@ -24689,7 +24688,7 @@ msgstr ""
 #: SupplierInvoice.php:1311 SupplierInvoice.php:1359 SupplierInvoice.php:1396
 #: SupplierInvoice.php:1421 includes/PDFOstdgGRNsPageHeader.inc:35
 msgid "GRN"
-msgstr "GRN"
+msgstr ""
 
 #: ReverseGRN.php:400 SupplierInvoice.php:671
 msgid "GRN Batch"
@@ -24812,7 +24811,7 @@ msgstr ""
 #: SalesAnalReptCols.php:253 SalesAnalReptCols.php:260
 #: SalesAnalReptCols.php:261
 msgid "Col"
-msgstr "Col"
+msgstr ""
 
 #: SalesAnalReptCols.php:254
 msgid "Heading 1"
@@ -33970,11 +33969,11 @@ msgstr "ConnectDB_XXXX.incで定めた機能DB_Maintenanceを使用してデー�
 
 #: SystemParameters.php:994 includes/MiscFunctions.php:213
 msgid "WackoWiki"
-msgstr "WackoWiki"
+msgstr ""
 
 #: SystemParameters.php:995 includes/MiscFunctions.php:215
 msgid "MediaWiki"
-msgstr "MediaWiki"
+msgstr ""
 
 #: SystemParameters.php:996 includes/MiscFunctions.php:217
 msgid "DokuWiki"
@@ -33990,7 +33989,7 @@ msgstr "この特徴は、wikiを使ってwebERPが自由形式の会社知識�
 
 #: SystemParameters.php:1006
 msgid "Wiki Path"
-msgstr "Wiki Path"
+msgstr ""
 
 #: SystemParameters.php:1008
 msgid "The path to the wiki installation to form the basis of wiki URLs - or the full URL of the wiki."
@@ -43466,7 +43465,7 @@ msgstr "数"
 
 #: includes/PDFInventoryPlanPageHeader.inc:55
 msgid "MTD"
-msgstr "MTD"
+msgstr ""
 
 #: includes/PDFInventoryPlanPageHeader.inc:65
 msgid "ms stk"
@@ -47929,11 +47928,8 @@ msgstr ""
 #~ msgid "File has type "
 #~ msgstr "販売タイプ"
 
-#~ msgid "note"
-#~ msgstr "注意"
+#~ msgid "GL Accounts Authorised Users Maintenance"
+#~ msgstr "GL Accounts Authorized Users Maintenance"
 
-#~ msgid "The SQL to to create temporary item quantity table failed with the message"
-#~ msgstr "在庫移動レコードを追加する以下のSQLが使われました"
-
-#~ msgid "Stock Conversion Utility"
-#~ msgstr "変換率（当社単位へ）"
+#~ msgid "User Authorised GL Accounts Maintenance"
+#~ msgstr "User Authorized GL Accounts Maintenance"
